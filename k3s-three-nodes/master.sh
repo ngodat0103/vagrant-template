@@ -1,0 +1,1 @@
+curl -sfL https://get.k3s.io | K3S_TOKEN=supersecuretoken INSTALL_K3S_EXEC="server" sh -s - --flannel-iface=eth1
